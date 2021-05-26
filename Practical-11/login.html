@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .menu a{
+            text-decoration: none;
+            margin: 80px;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .menu a:hover{
+            color: teal;
+        }
+
+        .menu{
+            border: 1px solid black;
+            margin-top: 50px;
+            width:58%;
+            height:fit-content;
+            margin:auto auto;
+            padding: 20px;
+            box-shadow: 2px 2px 5px;
+            background-image: linear-gradient(pink,red);
+        }
+
+        .box{
+            text-align: center;
+            margin-top: 10%;
+            font-size: xx-large;
+            color: royalblue;
+        }
+
+        .box input{
+            width: 10%;
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 0.5%;
+        } 
+
+        .box input:last-child{
+            padding: 1%;
+            font-size: large;
+            color: white;
+            background-color: grey;
+            letter-spacing: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="/home.html">HOME</a>
+        <a href="/about.html">ABOUT</a>
+        <a href="/login.html">LOGIN</a>
+    </div>
+
+    <div class="box">
+        <h2>Login Form</h2>
+        <form action="/login.html" method="POST">
+        Username <input type="text" name="uname" /><br /><br />
+        Password <input type="password" name="pwd" /><br /><br />
+        <input type="submit" value="LOGIN" />
+        </form>
+    </div>
+</body>
+</html>

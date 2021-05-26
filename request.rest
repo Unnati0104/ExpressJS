@@ -1,0 +1,7 @@
+POST  https://localhost:3000/user
+
+###
+GET  https://localhost:3000/dashboard
+
+###
+GET  https://localhost:3000/
