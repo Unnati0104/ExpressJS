@@ -38,14 +38,3 @@ app.get('/', function(req, res) {
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-
-app.post('/login.html', (req, res) => {
-    console.log(req.body);
-  if (req.body.uname == 'admin' && req.body.pwd == '123') {
-    // to use request.body, you need to import body-parser package
-      res.send('Successful Login');
-    } else {
-      res.send('Invalid Login');
-    }
-  });
